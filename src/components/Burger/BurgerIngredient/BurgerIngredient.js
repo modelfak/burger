@@ -4,10 +4,6 @@ import PropTypes from 'prop-types';
 
 class BurgerIngredient extends Component {
 
-    constructor(props) {
-            super(props);
-    }
-
     render() {
         let ingredient = null;
         switch (this.props.type) {
